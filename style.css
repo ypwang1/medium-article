@@ -1,0 +1,59 @@
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: gray;
+  font-size: 1.5em;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  margin:18px auto;
+  line-height: 2em;
+}
+
+a {
+  background-color: rgb(201, 246, 232);
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("https://loremflickr.com/320/240?lock=1");
+  background-size: auto;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+/*media queries*/
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
